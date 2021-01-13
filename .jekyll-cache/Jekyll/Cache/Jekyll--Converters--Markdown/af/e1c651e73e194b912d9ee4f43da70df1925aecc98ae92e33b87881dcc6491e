@@ -1,0 +1,99 @@
+I"ß<p><a href="https://github.com/swang2015/tranquil-theme">Tranquil theme</a> (<a href="http://swang2015.github.io/tranquil-theme/">demo</a>) is a stylish Jekyll template originally designed for <a href="http://swang2015.github.io/">my blog</a>.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Responsive design</li>
+  <li>Mathematics with Latex notation</li>
+  <li>Comment threads</li>
+  <li>Pagination</li>
+  <li>Browsing by categories/tags</li>
+  <li>Archive: posts timeline</li>
+  <li>Homepage slider of feature posts</li>
+  <li>Blog widgets</li>
+  <li>Back to top button</li>
+  <li>Vintage fashion</li>
+</ul>
+
+<h2 id="quick-start-guide">Quick-start guide</h2>
+
+<ol>
+  <li>Assume you already installed Jekyll following <a href="https://jekyllrb.com/docs/quickstart/">instructions</a>.</li>
+  <li>Fork and clone <a href="https://github.com/swang2015/tranquil-theme.git">tranquil-theme</a>.</li>
+  <li>Edit site options in <code class="language-plaintext highlighter-rouge">_config.yml</code>, create your own posts in <code class="language-plaintext highlighter-rouge">_post/</code>.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">jekyll serve</code> under site directory and your site is on now!</li>
+</ol>
+
+<h2 id="some-notes">Some notes</h2>
+
+<ul>
+  <li>edit your social accounts in <code class="language-plaintext highlighter-rouge">_data/social.yaml</code></li>
+  <li>assign ONE category for each post</li>
+  <li>add <code class="language-plaintext highlighter-rouge">feature</code> into tags if you want to show post at homepage slider</li>
+  <li>go to <code class="language-plaintext highlighter-rouge">images/</code> and place sidebar portrait pic and ads pic</li>
+  <li>if <a href="https://www.mathjax.org/">MathJax</a> is enabled, use <code class="language-plaintext highlighter-rouge">\[...\]</code> for displayed mathematics and <code class="language-plaintext highlighter-rouge">\(...\)</code> for in-line mathematics</li>
+  <li>ADVANCED: if you want to further customize your site, check out <a href="https://jekyllrb.com/docs/home/">Jekyll</a> to understand how it works, also check out <a href="http://www.w3schools.com/">html/css/javascript tutorials</a> and <a href="http://shopify.github.io/liquid/">liquid language</a> to learn code.</li>
+</ul>
+
+<h3 id="site-configurations">site configurations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>baseurl</td>
+      <td>the subpath of the site</td>
+    </tr>
+    <tr>
+      <td>paginate</td>
+      <td>posts per pagination</td>
+    </tr>
+    <tr>
+      <td>disqus_forumname</td>
+      <td>create a site on disqus and put the forum name here</td>
+    </tr>
+    <tr>
+      <td>aboutme</td>
+      <td>a description about self</td>
+    </tr>
+    <tr>
+      <td>ads</td>
+      <td>ads banner image path</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="post-configurations">post configurations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>background</td>
+      <td>postâ€™s feature picture</td>
+    </tr>
+    <tr>
+      <td>category</td>
+      <td>put ONE category in each post</td>
+    </tr>
+    <tr>
+      <td>tags</td>
+      <td>a list of tags</td>
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>set <code class="language-plaintext highlighter-rouge">true</code> or <code class="language-plaintext highlighter-rouge">false</code> to enable MathJax mathematics</td>
+    </tr>
+  </tbody>
+</table>
+:ET
